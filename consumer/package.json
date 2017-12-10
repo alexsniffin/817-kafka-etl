@@ -1,0 +1,15 @@
+{
+  "name": "FinDataConsumer",
+  "description": "Simple consumer application for fin data Kafka topic",
+  "private": true,
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "kafka-node": "^2.3.0",
+    "socket.io": "^2.0.4"
+  }
+}
